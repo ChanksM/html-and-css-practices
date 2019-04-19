@@ -8,58 +8,47 @@
 </head>
 <body>
     <form action="/">
+        <h4>Sign in</h4>
+        <p>* Full Name:</p>
         <p>
             <label>
-                * Name
-                <input type="text" name="Name" required>
+                <input type="text" name="Name" placeholder="Enter Full Name" required>
+            </label>
+        </p>
+        <p>* Email address:</p>
+        <p>
+            <label>
+                <input type="email" name="email" placeholder="Enter email" required>
+            </label>
+        </p>
+        <p>Communication:</p>
+        <p>
+            <label>
+                <input type="checkbox" name="Email checkbox">
+                Email
             </label>
         </p>
         <p>
             <label>
-                * E-mail
-                <input type="email" name="email" required>
+                <input type="checkbox" name="SMS checkbox" >
+                SMS
             </label>
         </p>
         <p>
             <label>
-                * password
-                <input type="password" name="password" required>
+                <input type="checkbox" name="Phone checkbox">
+                Phone
             </label>
         </p>
+        <p>User Group:</p>
         <p>
             <label>
-                * Number
-                <input type="number" name="number" required>
+                <input type="radio" name="radio">
+                Sales Person
             </label>
-        </p>
-        <p>
             <label>
-                * Date
-                <input type="date" name="date" required>
-            </label>
-        </p>
-        <p>
-            <label>
-                * Time
-                <input type="time" name="time" required>
-            </label>
-        </p>
-        <p>
-            <label>
-                * Color
-                <input type="color" name="color" required>
-            </label>
-        </p>
-        <p>
-            <label>
-                * Range
-                <input type="range" name="range" required>
-            </label>
-        </p>
-        <p>
-            <label>
-                * Description
-                <textarea name="textarea" cols="50" rows="7" required></textarea>
+                <input type="radio" name="radio">
+                Customer
             </label>
         </p>
         <label>
