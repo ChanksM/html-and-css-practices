@@ -8,8 +8,63 @@
 </head>
 <body>
     <form action="/">
-        <input type="text">
-        <input type="reset" value="Reset">
+        <p>
+            <label>
+                * Phone
+                <input type="number" name="phone" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                * E-mail
+                <input type="email" name="email" id="email" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                * password
+                <input type="password" name="password" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                * Confirm password
+                <input type="password" name="confirm password" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                * Nickname
+                <input type="text" name="Nickname" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                * Habitual Residence
+                <select name="city" required>
+                    <option>Zhejiang</option>
+                    <option>Hangzhou</option>
+                    <option>West Lake</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label>
+                * Website
+                <input type="url" name="Website" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" name="check" required>
+                I have reed this <a target="_blank" href="https://www.google.com/">agreement</a>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="submit" value="Register" required>
+            </label>
+        </p>
     </form>
 </body>
 </html>
