@@ -5,7 +5,6 @@
 }
 .button.primary{
     background-color: blue;
-    color: white;
 }
 .button.default{
     background-color: white;
@@ -26,4 +25,8 @@
 .button.default.large,.button.danger.large{
     height: 100px;
     width: 300px;
+}
+
+.ghost{
+    background-color: transparent !important;
 }
