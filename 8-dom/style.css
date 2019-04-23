@@ -1,0 +1,13 @@
+section{
+    display: flex;
+    justify-content: space-between;
+}
+section > div{
+    border: 1px solid gray;
+}
+.texts{
+    text-align: center;
+}
+a{
+    color: gray;
+}
