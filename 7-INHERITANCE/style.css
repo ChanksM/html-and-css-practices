@@ -18,3 +18,12 @@
     background-color: gray;
     color: red;
 }
+.button.primary.small, .button.dashed.small{
+    height: 20px;
+    width: 60px;
+}
+
+.button.default.large,.button.danger.large{
+    height: 100px;
+    width: 300px;
+}
