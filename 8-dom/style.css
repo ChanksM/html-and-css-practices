@@ -1,13 +1,44 @@
 section{
+    display: inline-block;
+    margin-left: 6%;
+}
+.wrapper{
+    width: 380px;
+    border: 1px solid gray;
+    padding: 10px 20px 5px 20px;
+    box-sizing: border-box;
+}
+
+.content img, .content p{
+    display: inline-block;
+}
+
+.user-and-texts .user{
+    height: 50px;
+    display: inline-block;
+}
+.user-and-texts .texts{
+    display: inline-block;
+    margin-left: 10px;
+}
+.user-and-texts .texts p:last-child{
+    color: gray;
+}
+.footer-div{
     display: flex;
     justify-content: space-between;
 }
-section > div{
-    border: 1px solid gray;
+.icon-3, .icon-1{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
 }
-.texts{
-    text-align: center;
+.icon-3 img, .icon-1 img{
+    height: 20px;
 }
-a{
-    color: gray;
+.icon-1{
+    width: 50px;
+}
+.icon-1 p{
+    margin: 0;
 }
