@@ -1,0 +1,17 @@
+#blog{
+    color: red;
+    text-align: center;
+}
+header h1:hover{
+    font-size: 40px;
+    transition: 1s;
+}
+article h2 > a:hover{
+    color: white;
+    background-color: black;
+    box-shadow: 4px 4px 4px gray;
+    transition: 1.5s;
+}
+.text{
+    border: 2px solid orange;
+}
