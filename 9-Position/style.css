@@ -1,53 +1,66 @@
 .main-div{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 667px;
+    width: 1000px;
+    position: relative;
 }
-.main-div img{
+.main-div .for-opacity{
     position: absolute;
-    z-index: 1;
-    opacity: .4;
-}
-.main-div .status{
-    position: absolute;
-    right: 50%;
-    top: 50%;
-    transform: translate(50%, -50%);
-    height: 180px;
-    width: 500px;
-    background-color: white;
+    height: 100%;
+    width: 100%;
     z-index: 2;
-    border-radius: 5px;
+    background-color: black;
+    opacity: .7;
 }
-.main-div .status h3{
-    position: relative;
-    left: 20px;
-}
-.main-div .status a{
+.main-div .header-texts{
     position: absolute;
-    right: 20px;
-    top: 20px;
+    z-index: 3;
+    color: white;
+    top: 100px;
+    left: 70px;
+}
+.main-div .header-texts h1{
+    font-size: 80px;
+    margin: 0;
+}
+.main-div .header-texts p{
+    margin-left: 40px;
+}
+.main-div .header-texts h1 span{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding-left: 40px;
+}
+a{
     text-decoration: none;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0 10px;
 }
-.main-div .status p{
-    position: relative;
-    left: 20px;
-}
-.main-div .status .button-1{
+.left, .right{
     position: absolute;
-    right: 70px;
-    background-color: #fff;
-    border-radius: 5px;
-    border: 1px solid gray;
-    padding: 7px 10px;
+    z-index: 4;
 }
-.main-div .status .button-2{
-    position: absolute;
+.right{
     right: 20px;
-    background-color: blue;
-    border-radius: 5px;
-    border: 1px solid gray;
-    padding: 7px 10px;
+    top: 50%;
 }
-.main-div > p{
+.left{
+    left: 20px;
+    top: 50%;
+}
+.main-div .sport{
+    padding: 0 10px;
+    font-size: 40px;
+    background-color: orangered;
+    color: white;
     position: absolute;
-    top: 20%;
+    z-index: 4;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
