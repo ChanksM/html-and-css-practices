@@ -1,0 +1,17 @@
+.main-div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-div h1{
+    font-size: 140px;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    z-index: 2;
+    color: purple;
+}
+.main-div img{
+    position: absolute;
+    z-index: 1;
+    opacity: .4;
+}
