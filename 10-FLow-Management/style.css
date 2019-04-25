@@ -1,8 +1,7 @@
 .all {
     background-color: black;
-    height: 600px;
+    height: 550px;
     width: 500px;
-    padding: 10px;
 }
 .col-1{
     float: left;
@@ -11,47 +10,62 @@
     float: right;
 }
 .col-1-item-1{
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    margin: 0 20px 20px 0;
+    height: 210px;
+    width: 210px;
+    background-color: red;
+    margin-bottom: 20px;
 }
 .col-1-item-2{
-    height: 300px;
-    width: 100px;
-    background-color: white;
-    margin: 0 20px 20px 0;
+    height: 130px;
+    width: 210px;
+    background-color: aqua;
+    margin-bottom: 20px
 }
 .col-1-item-3{
-    height: 160px;
-    width: 100px;
-    background-color: blue;
+    width: 210px;
 }
-.col-2-item-1 {
-    height: 420px;
-    width: 380px;
+.col-1-item-1-1{
+    height: 170px;
+    width: 50px;
+    display: inline-block;
+    background-color: yellow;
+}
+.col-1-item-1-2{
+    height: 170px;
+    width: 140px;
+    background-color: aqua;
+    float: right;
+}
+.col-2-item-1{
+    height: 210px;
+    width: 270px;
+    background-color: aqua;
     margin-bottom: 20px;
-    background-color: red;
+}
+.col-2-item-2{
+    height: 130px;
+    width: 270px;
+    background-color: aqua;
+    margin-bottom: 20px;
 }
 .col-3-item-1{
-    height: 160px;
-    width: 300px;
-    background-color: white;
     display: inline-block;
-    margin-right: 20px;
+    margin-left: 20px;
 }
-.col-3-item-2 {
+.col-3-item-2{
     float: right;
-    height: 160px;
+    height: 170px;
+    width: 100px;
+    background-color: aqua;
 }
-.col-2-item-1-1{
-    height: 60px;
-    width: 60px;
-    background-color: white;
+.col-3-item-1-1{
+    background-color: blue;
+    height: 130px;
+    width: 150px;
     margin-bottom: 20px;
 }
-.col-2-item-1-2{
-    background-color: yellow;
-    height: 80px;
-    width: 60px;
+.col-3-item-1-2{
+    background-color: aqua;
+    width: 150px;
+    height: 20px;
 }
