@@ -1,29 +1,248 @@
-.wrapper{
-    width: 940px;
-    margin: auto;
+.wrapper {
+    background-color: black;
+    height: 560px;
+    width: 610px;
 }
-.row{
+.column-between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.between{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
 }
-.row-1{
-    height: 220px;
+/* colors */
+.common-color{
+    background-color: #f9e46d;
+}
+.blue{
+    background-color: blue;
+}
+.aqua{
+    background-color: aqua;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+/* section 1 */
+
+.section-1{
+    width: 200px;
+    height: 200px;
+}
+.sect-1-col-1{
+    width: 50px;
+    height: 200px;
+}
+.sect-1-col-1-1{
+    height: 120px;
+    width: 40px;
+}
+.sect-1-col-1-2{
+    height: 70px;
+    width: 40px;
+}
+.sect-1-col-2{
+    height: 200px;
+    width: 90px;
+}
+.sect-1-col-2-1{
+    height: 40px;
+    width: 80px;
+}
+.sect-1-col-2-2{
+    height: 70px;
+    width: 80px;
+}
+.sect-1-col-2-3{
+    height: 70px;
+    width: 80px;
+}
+.sect-1-col-3{
+    height: 200px;
+    width: 60px;
+}
+.sect-1-col-3-1{
+    height: 40px;
+    width: 50px;
+}
+.sect-1-col-3-2{
+    height: 150px;
+    width: 50px;
+    background-color: black;
+}
+/* section 1 */
+/* section 2 */
+.section-2{
+    width: 190px;
+    height: 200px;
+}
+.sect-2-col-1-1{
+    height: 40px;
+    width: 180px;
+}
+.sect-2-col-1-2{
+    height: 150px;
+    width: 180px;
+}
+/* section 2 */
+/* section 3 */
+.section-3{
+    height: 200px;
     width: 220px;
-    background-color: #ff00ff;
 }
+.sect-1-col-1-head{
+    height: 200px;
+    width: 110px;
+}
+.sect-3-col-1-item{
+    height: 120px;
+}
+.sect-1-col-1-item-1{
+    height: 90px;
+    width: 70px;
+}
+.sect-1-col-1-item-2{
+    height: 20px;
+    width: 70px;
+}
+.sect-1-col-1-item-3{
+    height: 70px;
+    width: 110px;
+}
+.sect-1-col-1-item-4{
+    height: 120px;
+    width: 30px;
+}
+.sect-1-col-1-item-5{
+    height: 200px;
+    width: 60px;
+}
+.sect-1-col-1-item-6{
+    height: 200px;
+    width: 30px;
+}
+/* section 3 */
+/* section 4 */
 .row-2{
-    height: 100px;
-    width: 100px;
-    background-color: #ff00ff;
+    margin: 10px 0;
 }
-.row-3-1{
-    height: 220px;
-    width: 700px;
-    background-color: #ff00ff;
+.section-4{
+    height: 200px;
+    width: 190px;
 }
-.row-4{
-    width: 460px;
-    height: 220px;
-    background-color: #ff00ff;
+.sect-4-col-1-1{
+    height: 50px;
+    width: 190px;
+}
+.sect-4-col-1-2{
+    height: 50px;
+    width: 190px;
+}
+.sect-4-col-1-3{
+    height: 80px;
+    width: 190px;
+    background-color: black;
+}
+/* section 4  */
+/* section 5 */
+.section-5{
+    height: 200px;
+    width: 180px;
+}
+.sect-5-col-1-item-1{
+    height: 200px;
+    width: 85px;
+}
+.sect-5-col-1-item-2{
+    height: 20px;
+    width: 85px;
+}
+.sect-5-col-1-item-3{
+    height: 170px;
+    width: 85px;
+}
+/* section 5 */
+/* section 6 */
+.section-6{
+    width: 220px;
+    height: 60px;
+}
+.sect-6-col-1-segment-1{
+    height: 110px;
+}
+.sect-6-col-1-item-1{
+    height: 50px;
+    width: 180px;
+    background-color: black;
+}
+.sect-6-col-1-item-2{
+    height: 50px;
+    width: 30px;
+}
+.sect-6-col-1-item-3{
+    height: 50px;
+    width: 110px;
+}
+.sect-6-col-1-item-4{
+    height: 50px;
+    width: 60px;
+}
+.sect-6-col-1-item-5{
+    height: 50px;
+    width: 30px;
+}
+.sect-6-row-2{
+    height: 140px;
+    width: 220px;
+    margin: 10px 0;
+}
+.sect-6-col-1-item-6{
+    height: 140px;
+    width: 60px;
+}
+.sect-6-col-1-item-7{
+    height: 80px;
+    width: 150px;
+}
+.sect-6-col-1-item-8{
+    height: 50px;
+    width: 150px;
+}
+.sect-6-row-3{
+    height: 80px;
+    width: 220px;
+}
+/* section 7 */
+.row-3{
+    width: 380px;
+    height: 140px;
+}
+.section-7{
+    height: 100%;
+    width: 190px;
+}
+.sect-7-col-1-item-1{
+    height: 140px;
+    width: 40px;
+}
+.sect-7-col-1-item-2{
+    height: 20px;
+    width: 80px;
+}
+.sect-7-col-1-item-3{
+    height: 110px;
+    width: 80px;
+}
+.sect-7-col-1-item-4{
+    height: 140px;
+    width: 50px;
+}
+.section-8{
+    height: 140px;
+    width: 180px;
 }
