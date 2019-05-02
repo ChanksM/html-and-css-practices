@@ -23,7 +23,7 @@ main{
 }
 
 .bottom{
-    width: 1172px;
+    width: 1170px;
     margin: auto;
 }
 .bottom header{
@@ -63,13 +63,13 @@ main{
 }
 .bottom .content .first-text p{
     font-size: 14px;
-    line-height: 23px;
+    line-height: 23.3px;
     color: #A1B1BC;
 }
 .bottom .content .second-text{
     width: 1142px;
     height: 165px;
-    margin: 0 0 32px auto;
+    margin: 0 0 43px auto;
     border: 1px solid #ECF0F1;
     display: flex;
     justify-content: space-between;
@@ -98,15 +98,19 @@ main{
     height: 121.67px;
     margin: auto;
     margin-right: -1px;
+    margin-bottom: 16px;
 }
 .bottom .third-text .third-text-first{
     display: flex;
     justify-content: space-between;
 }
+#third-text-p-2{
+    margin: -15px 30px 0 0;
+}
 .bottom .third-text .third-text-first > p:first-child::first-letter{
     font-size: 30px;
     background-color: #34495E;
-    padding: 5px 13px;
+    padding: 2px 12px;
     /* display: inline-block; */
     color: #21C2F8;
 }
@@ -115,17 +119,20 @@ main{
     line-height: 23px;
     color: #A1B1BC;
 }
+.third-text-second{
+    margin-top: 11.5px;
+}
 .bottom .third-text p:last-child{
-    width: 1122px;
     margin-top: -10px;
 }
 .fourth-text h3{
     font-size: 30px;
     line-height: 30px;
     color: #34495E;
+    margin-bottom: 14px;
 }
 .fourth-text p{
     font-size: 14px;
-    line-height: 30px;
+    line-height: 23.4px;
     color: #A1B1BC;
 }
