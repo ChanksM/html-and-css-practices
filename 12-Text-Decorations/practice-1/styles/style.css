@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto"
+}
+main{
+    margin-top: 100px;
+    /* margin: auto; */
+}
+.top{
+    width: 1172px;
+    margin: auto;
+    margin-bottom: 46.5px;
+}
+.top .poster {
+    width: 1170px;
+    height: 800px;
+    background-color: #ECF0F1;
+    /* border: 1px solid #707070; */
+}
+
+.bottom{
+    width: 1172px;
+    margin: auto;
+}
+.bottom header{
+    width: 1170px;
+    height: 100px;
+    margin: 0 auto 23px;
+    border-bottom: 1px solid #ECF0F1;
+}
+.bottom header h3{
+    font-size: 36px;
+    line-height: 36px;
+    color: #2C3E50;
+    margin-bottom: 8px;
+}
+.bottom header p{
+    font-size: 14px;
+    line-height: 36px;
+    color: #A1B1BC;
+    letter-spacing: -.15px;
+}
+.bottom header p span::after{
+    content: "";
+    height: 12px;
+    width: 1px;
+    background-color: #EBEBEB;
+    display: inline-block;
+    margin: 0 12px;
+    vertical-align: middle;
+}
+.bottom header p span:last-child::after{
+    display: none;
+}
+.bottom .content .first-text{
+    height: 174px;
+    margin: auto;
+    margin-bottom: 26px;
+}
+.bottom .content .first-text p{
+    font-size: 14px;
+    line-height: 23px;
+    color: #A1B1BC;
+}
+.bottom .content .second-text{
+    width: 1142px;
+    height: 165px;
+    margin: 0 0 32px auto;
+    border: 1px solid #ECF0F1;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom .second-text .line{
+    height: 100%;
+    width: 10px;
+    background-color: #21C2F8;
+}
+.bottom .second-text .second-text-h4p{
+    width: 1071px;
+    padding: 41px 217px 43px 0;
+}
+.bottom .second-text .second-text-h4p h4{
+    font-size: 24px;
+    line-height: 24px;
+    color: #A1B1BC;
+    margin-bottom: 10px;
+}
+.bottom .second-text .second-text-h4p p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #A1B1BC;
+}
+.bottom .third-text{
+    height: 121.67px;
+    margin: auto;
+    margin-right: -1px;
+}
+.bottom .third-text .third-text-first{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom .third-text .third-text-first > p:first-child::first-letter{
+    font-size: 30px;
+    background-color: #34495E;
+    padding: 5px 13px;
+    /* display: inline-block; */
+    color: #21C2F8;
+}
+.bottom .third-text p{
+    font-size: 14px;
+    line-height: 23px;
+    color: #A1B1BC;
+}
+.bottom .third-text p:last-child{
+    width: 1122px;
+    margin-top: -10px;
+}
+.fourth-text h3{
+    font-size: 30px;
+    line-height: 30px;
+    color: #34495E;
+}
+.fourth-text p{
+    font-size: 14px;
+    line-height: 30px;
+    color: #A1B1BC;
+}
