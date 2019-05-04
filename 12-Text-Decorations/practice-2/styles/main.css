@@ -169,17 +169,14 @@ footer .admin-texts h4{
     color: #2C3E50;
 }
 footer .admin-texts p{
-    height: 14px;
+    font-size: 14px;
     line-height: 24px;
     color: #A1B1BC;
 }
 footer .admin-texts .thin-text{
     font-weight: 100;
-    letter-spacing: -1.1px;
-    margin-bottom: 18px;
+    margin-bottom: 8px;
 }
 footer .admin-texts p:last-child{
     font-style: italic;
-    letter-spacing: -0.8px;
-    word-spacing: -.6px;
 }
