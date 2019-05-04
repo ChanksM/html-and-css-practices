@@ -4,29 +4,133 @@
     padding: 0;
 }
 .container{
-    height: 1059.9px;
-    grid-gap: 20px;
+    grid-gap: 5px;
     display: grid;
     justify-content: center;
-    grid-template-rows: repeat(5, 100px);
-    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(20, 20px);
+    grid-template-columns: repeat(13, 40px);
 }
 .container > div{
-    background-color: chartreuse;
+    background-color: #ff0072;
 }
-.container .normal{
+.row-1-item-1{
+    grid-column: span 1;
+    grid-row: span 5;
+}
+.row-1-item-2{
     grid-column: span 2;
     grid-row: span 2;
 }
-.container .small{
+.row-1-item-3{
     grid-column: span 1;
+    grid-row: span 2;
+}
+.row-1-item-4{
+    grid-column: span 4;
+    grid-row: span 2;
+}
+.row-1-item-5{
+    grid-column: span 2;
+    grid-row: span 4;
+}
+.row-1-item-6{
+    grid-column: span 1;
+    grid-row: span 5;
+}
+.row-1-item-7{
+    grid-column: span 1;
+    grid-row: span 8;
+}
+
+.row-2-item-1{
+    grid-column: span 2;
+    grid-row: span 3;
+}
+.row-2-item-2{
+    grid-column: span 1;
+    grid-row: span 6;
+}
+.row-2-item-3{
+    grid-column: span 4;
+    grid-row: span 6;
+}
+
+.row-3-item-1{
+    grid-column: span 2;
     grid-row: span 1;
 }
-.container .max{
-    grid-row: span 2;
-    grid-column: span 6;
+
+.row-4-item-1{
+    grid-column: span 1;
+    grid-row: span 3;
 }
-.container .big{
-    grid-row: span 2;
+.row-4-item-3{
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+.row-5-item-1{
     grid-column: span 4;
+    grid-row: span 2;
+}
+.row-5-item-2{
+    grid-column: span 2;
+    grid-row: span 7;
+}
+.row-5-item-3{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.row-5-item-4{
+    grid-column: span 4;
+    grid-row: span 2;
+}
+.row-5-item-5{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.row-6-item-1{
+    grid-column: span 2;
+    grid-row: span 6;
+}
+
+.row-7-item-1{
+    grid-column: span 2;
+    grid-row: span 6;
+}
+.row-7-item-2{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+.row-7-item-3{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.row-8-item-1{
+    grid-column: span 4;
+    grid-row: span 3;
+}
+.row-8-item-2{
+    grid-column: span 2;
+    grid-row: span 5;
+}
+.row-8-item-3{
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+.row-9-item-4{
+    grid-column: span 4;
+    grid-row: span 5;
+}
+
+.row-10-item-1{
+    grid-column: span 2;
+    grid-row: span 4;
+}
+
+.row-11-item-1{
+    grid-column: span 5;
+    grid-row: span 3;
 }
