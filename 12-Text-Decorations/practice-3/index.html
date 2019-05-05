@@ -132,13 +132,17 @@
         </div>
         <div class="bottom">
             <h3>Leave A Comment</h3>
-            <div class="inp-3">
-                <input type="text" name="Name" placeholder="Name" class="inp-size" required>
-                <input type="email" name="Email" placeholder="Email" class="inp-size" required>
-                <input type="url" name="Website" placeholder="Website" class="inp-size" required>
-            </div>
-            <textarea required></textarea>
-            <input type="submit" class="button" value="Submit Comment">
+            <form action="/">
+                <label class="inp-3">
+                    <input type="text" name="Name" placeholder="Name" class="inp-size" required>
+                    <input type="email" name="Email" placeholder="Email" class="inp-size" required>
+                    <input type="url" name="Website" placeholder="Website" class="inp-size" required>
+                </label>
+                <textarea required></textarea>
+                <label>
+                    <input type="submit" class="button" value="Submit Comment">
+                </label>
+            </form> 
         </div>
     </main>
 </body>
