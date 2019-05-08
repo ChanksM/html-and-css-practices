@@ -20,7 +20,7 @@ main header h3, main article h3{
     font-size: 30px;
     line-height: 30px;
     color: #34495E;
-    letter-spacing: -0.39px;
+    font-weight: 400;
 }
 main header h3 span, main article h3 span{
     color: #1ABC9C;
